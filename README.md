@@ -7,19 +7,19 @@ website’s layouts, give certain elements (such as the navigation bar) more emp
 general make the website more appealing to users. More information can be found in writeup.pdf
 
 
-Home View - index.html
-    - contains nav bar, search bar, and popular album 
+Home View - index.html:
+- contains nav bar, search bar, and popular album 
 
-Artist View - view2.html
-    - contains nav bar, artist name, and artist's albums
+Artist View - view2.html:
+- contains nav bar, artist name, and artist's albums
 
-Lyrics View - view3.html
-    - contains nav bar, name of song and artist, and lyrics
+Lyrics View - view3.html:
+- contains nav bar, name of song and artist, and lyrics
 
 Search View - view4.html
-    - contains nav bar, categories bar, and search results
+- contains nav bar, categories bar, and search results
 
 
 Division of Labor:
-    - html/css: Erica, Lillian
-    - Graphic/Typography/icons/color: Kaylin
+- html/css: Erica, Lillian
+- Graphic/Typography/icons/color: Kaylin
