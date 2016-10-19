@@ -16,7 +16,7 @@ Artist View - view2.html:
 Lyrics View - view3.html:
 - contains nav bar, name of song and artist, and lyrics
 
-Search View - view4.html
+Search View - view4.html:
 - contains nav bar, categories bar, and search results
 
 
