@@ -1,0 +1,375 @@
+body, html{
+	margin: 0 auto;
+	width: 100%;
+/*	min-width: 500px;*/
+	-webkit-font-smoothing: antialiased;
+	-o-font-smoothing: antialiased;
+	font-weight: normal;
+	color: #777;
+	line-height: 1.5;
+	background-color: #f2f2f2;
+	font-family: 'Open Sans', sans-serif;
+}
+
+.title{
+	height: 30;
+	width: 30%;
+	margin-top: 20%;
+	text-align: center;
+	padding: 30px;
+	margin-left: 34%;
+	font-size: 48px;
+	font-weight: 700;
+	text-transform: uppercase;
+	color: #8F8DC4;
+}
+
+#nav-bar {
+	position: fixed;
+	background: rgba(0, 0, 0, 0.48);
+	/*    color: white;*/
+	width: 100%;
+	z-index: 1;
+	height: 80px;
+	top: 0;
+	/*   	border-top: 3px dotted #e5e5e5;
+	border-bottom: 3px dotted #e5e5e5;
+	box-shadow: inset 0 -1px 0 0 #e5e5e5, inset 0 1px 0 0 #e5e5e5, 0 1px 0 0 #e5e5e5, 0 -1px 0 0 #e5e5e5;
+	margin-bottom: 1px;*/
+	left: 0;
+	/* border: solid; */
+	z-index: 12;
+	color: white;
+
+}
+
+#search {
+	margin-top: 5px;
+}
+
+
+#nav .container {
+    padding: 10px 10px;
+    overflow: hidden;
+}
+
+#logo {
+    /* font-size: 20px; */
+    /* font-weight: 700; */
+    /* text-transform: uppercase; */
+    /* letter-spacing: 8px; */
+    float: left;
+    /* line-height: 30px; */
+    padding-left: 20px;
+    padding-top: 15px;
+}
+
+#nav-logo:hover {
+/*	color: #FFA96E;*/
+	color: #000000;
+	cursor: pointer;
+}
+
+
+.slogan {
+	color: white;
+	position: absolute;
+	top: 30%;
+	left: 30%;
+	font-family: 'Open Sans', sans-serif;
+	text-transform: uppercase;
+
+	font-size: 33px;
+	letter-spacing: 3px;
+	text-shadow: 1px 1px #63626E;
+}
+
+
+#nav-item-container {
+    float: right;
+    margin-top: 2%;
+}
+
+.nav-item {
+    /* position: relative; */
+    float: right;
+    font-size: 15px;
+    line-height: 30px;
+    letter-spacing: 2px;
+    /* margin-left: 00px; */
+    /* left: 500px; */
+    font-weight: 400;
+    padding-right: 10px;
+    margin-right: 2%;
+    padding-top: 22px;
+    /* right: 5%; */
+    /* padding-left: 10%; */
+    /* border: solid; */
+    color: white;
+    text-transform: uppercase;
+}
+
+.nav-item:hover {
+	cursor: pointer;
+	opacity: 0.7;
+/*	color: #FFA96E;*/
+	color: #8F8DC4;
+}
+
+/*#bg {
+	width: 100%;
+	height: 50%;
+	border: solid 5px;
+}*/
+
+.az-search a {
+	text-decoration: none;
+	color: white;
+}
+
+.az-search {
+	position: absolute;
+	top: 49%;
+	left: 30%;
+	text-shadow: .05px .05px #63626E;
+	letter-spacing: 4.8px;
+}
+
+input {
+	position: absolute;
+	top: 40%;
+	left: 30%;
+	height: 50px;
+	width: 600px;
+}
+
+#social-media {
+	top: 90%;
+	position: fixed;
+	right: 3%;
+	opacity: 0.7;
+}
+
+#social-media:hover {
+	opacity: 1;
+}
+
+#circle {
+	position: absolute;
+	top: 480px;
+	left: 49%;
+	z-index: 10;
+}
+
+#circle:hover {
+    -webkit-box-shadow: 5px 5px 17px -4px rgba(0,0,0,0.6);
+    -moz-box-shadow: 5px 5px 17px -4px rgba(0,0,0,0.6);
+    box-shadow: 5px 5px 17px -4px rgba(0,0,0,0.6);
+}
+
+#arrow-down {
+	position: absolute;
+	top: 495px;
+	left: 49.95%;
+    z-index: 12;
+}
+
+#arrow-down:hover {
+	color: #54AB47;
+
+}
+
+.hot-albums {
+	float: left;
+	padding: 35px;
+	margin: 0px;
+	margin-top: 10%;
+	left: 50%;
+	-webkit-transform: translateX(50%) translateY(10%);
+	-moz-transform: translateX(50%) translateY(10%);
+	transform: translateX(50%) translateY(10%);
+
+}
+
+.hot-albums:hover {
+/*	box-shadow: 5px 5px 5px -4px rgba(0,0,0,0.6);*/
+/*    box-shadow: 5px 5px 17px -4px rgba(0,0,0,0.6);
+    box-shadow: 5px 5px 17px -4px rgba(0,0,0,0.6);*/
+	opacity: 0.7;
+}
+
+#arrow-left {
+	position: absolute;
+	top: 1180px;
+	left: 80px;
+    z-index: 2;
+}
+
+#arrow-left:hover {
+	color: #54AB47;
+	opacity: 0.7;
+}
+
+#arrow-right {
+	position: absolute;
+	top: 1180px;
+	right: 80px;
+    z-index: 2;
+}
+
+#arrow-right:hover {
+	color: #54AB47;
+	opacity: 0.7;
+}
+
+
+/** View 2 **/
+.artist-albums {
+	float: left;
+	padding: 35px;
+	margin: 0px;
+	margin-top: 10%;
+	-webkit-transform: translateX(50%) translateY(10%);
+	-moz-transform: translateX(50%) translateY(10%);
+	transform: translateX(50%) translateY(10%);
+
+}
+
+#left {
+	position: absolute;
+	top: 670px;
+	left: 80px;
+    z-index: 2;
+}
+
+#left:hover {
+	color: #54AB47;
+}
+
+#right {
+	position: absolute;
+	top: 670px;
+	right: 80px;
+    z-index: 2;
+}
+
+#right:hover {
+	color: #54AB47;
+}
+
+.artist-albums:hover {
+/*	box-shadow: 5px 5px 5px -4px rgba(0,0,0,0.6);*/
+/*    box-shadow: 5px 5px 17px -4px rgba(0,0,0,0.6);
+    box-shadow: 5px 5px 17px -4px rgba(0,0,0,0.6);*/
+	opacity: 0.7;
+}
+
+
+/** View 3 **/
+
+#song {
+	font-family: 'Open Sans', sans-serif;
+	text-align: center;
+	margin: 0px auto;
+	text-transform: uppercase;
+	color: #8F8DC4;
+	font-size: 32px;
+	font-weight: bolder;
+	margin-top: 130px;
+	margin-bottom: 10px;
+
+}
+
+#artist-name {
+	font-family: 'Open Sans', sans-serif;
+	text-align: center;
+	margin: 0px auto;
+	text-transform: uppercase;
+	color: #8F8DC4;
+	font-size: 24px;
+	font-weight: bolder;
+	margin-bottom: 20px;
+	
+}
+
+.heading{
+	font-size: 16px;
+	font-weight: bold; 
+	margin: 5px;
+	text-transform: uppercase;
+}
+
+.lyrics-text {
+	font-family: 'Open Sans', sans-serif;
+	font-size: 14px;
+	text-align: center;
+	margin: 10px auto;
+	overflow: scroll;
+	line-height: 20px;
+	width: 50%;
+	color: #63626E;
+}
+
+.lyrics {
+	width: 700px;
+	height: 400px;
+	overflow: scroll;
+	margin: 0 auto;
+}
+
+/** View 4 **/
+
+.search-results-container {
+	font-family: 'Open Sans', sans-serif;
+	width: 700px;
+	height: 400px;
+	overflow: scroll;
+	margin: 0 auto;
+	line-height: 40px;
+	text-align: center;
+	color: #63626E;
+
+}
+
+.search-results-text:hover{
+	color: #8F8DC4;
+}
+
+.search-item {
+	display: inline-block;
+	text-align: center;
+	margin: 0 auto;
+	color: white;
+	padding: 5px 10px;
+	margin-right: 5px;
+	font-size: 14px;
+	background-color: #85C441;
+}
+
+.search-item:hover {
+	background-color: #54AB47;
+}
+
+.search-container {
+	text-align: center;
+	margin: 0 auto;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 16px;
+	font-weight: bold; 
+	margin-bottom: 15px;
+	text-transform: uppercase;
+	padding: 5px;
+
+}
+
+#search-name {
+	font-family: 'Open Sans', sans-serif;
+	font-size: 20px;
+	font-weight: bolder;
+	text-align: center;
+	color: #63626E;
+	margin-top: 130px;
+	margin-bottom: 15px;
+
+}
+
